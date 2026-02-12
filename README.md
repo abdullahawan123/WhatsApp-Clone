@@ -1,16 +1,61 @@
-# whatsapp
+WhatsApp Clone
 
-A new Flutter project.
+A Flutter-based WhatsApp inspired mobile application that replicates core messaging UI and navigation concepts. This project focuses on building the user interface and layout elements similar to a real chat app, demonstrating Flutter proficiency in designing multi-screen applications.
+
+## Features
+
+- Messaging UI inspired by WhatsApp
+- Chat list and conversation screens
+- Clean and responsive UI layouts
+- Built using Flutter & Dart
+- Cross-platform support (Android & iOS)
+
+## Tech Stack
+
+- Flutter
+- Dart
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+Make sure you have the following installed on your machine:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK
+- Android Studio or Visual Studio Code
+- Android or iOS simulator / physical device
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/abdullahawan123/WhatsApp-Clone.git
+Navigate to the project directory:
+
+cd WhatsApp-Clone
+Install dependencies:
+
+flutter pub get
+Run the application:
+
+flutter run
+Project Structure
+lib/
+├── main.dart
+├── screens/
+├── widgets/
+├── models/
+Future Enhancements
+Add authentication (e.g., phone number login)
+
+Integrate real-time messaging backend (Firebase or custom API)
+
+Enable media messaging (images, audio, video)
+
+Add status/story features
+
+Implement dark/light theme support
+
+Author
+Abdullah Awan
